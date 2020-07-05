@@ -1,3 +1,5 @@
+//file used to quickly update any changes made to the files while in developer mode. 
+
 const filesInDirectory = dir => new Promise (resolve =>
 
     dir.createReader ().readEntries (entries =>
