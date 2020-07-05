@@ -12,10 +12,7 @@ How to use it:
 
 Special Features:
 - Works better than a Regex based blocker!
-- Blocks even "Top Stories" and "People Also Search" sections of the search, which most blockers out there don't.
+- Blocks even "Top Stories" and "People Also Search" sections of the search, which most blockers out there don't (Loads synchoronously)
 - Has an on/off button- so if you get sick of seeing the blurs on a specific page, just turn off the extension using the button. No hassle of removing the word, then remembering to get it back later.
 - It is possible to sync the words saved on the extension, once its published on Chrome Web Store. Till then there is no way to cloud sync, given how Chrome Extensions work. (That is, only the Web Store one's can be seen on a different device, developer mode one's can't. But that can be fixed soon :) )
-
-Current Inconviniences: 
-1> NOTE: This version of the extension is case sensitive. Meaning, just writing 'star' does not block any sites that could have the word 'Star'. That will be fixed soon.
-Till then, make sure you are typing 'Star', 'star' and 'STAR' to avoid the maximum number of blockers (almost all of them)!
+- Is case insensitive! The page can have content in upper case, lower case - as long as the word is there, its blocked.
